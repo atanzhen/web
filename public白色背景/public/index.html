@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="免费临时邮箱、临时邮、临时Email、快速注册Email、10分钟邮箱">
+  <meta http-equiv="Expires" content="0">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-control" content="no-cache">
+    <meta http-equiv="Cache" content="no-cache">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>XIUVI 免费临时邮箱、临时邮、临时Email、快速注册Email、10分钟邮箱</title>
+   <meta name="Keywords" content="免费临时邮箱、临时邮、临时Email、快速注册Email、10分钟邮箱">
+  <link href="css/5-semantic.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/css/app.css">
+  <link rel="stylesheet" href="/css/prism.css">
+  <link href='css/sweetalert2.min.css' rel='stylesheet' type='text/css'>
+    <script src="js/sweetalert2.0.min.js"></script>
+</head>
+<body>
+<script>
+window.onload = function(){
+   // 取消首页弹窗提示：swal('欢迎使用','该程序由 XIUVI 维护和运行<br>mail.xiuvi.cn','success');
+}
+    function copyText(){ // text: 要复制的内容， callback: 回调
+    var text=document.getElementById('shortid').value;
+    var tag = document.createElement('input');
+    tag.setAttribute('id', 'cp_hgz_input');
+    tag.value = text;
+    document.getElementsByTagName('body')[0].appendChild(tag);
+    document.getElementById('cp_hgz_input').select();
+    document.execCommand('copy');
+    document.getElementById('cp_hgz_input').remove();
+    swal('复制成功','您的邮箱为：'+ text,'success');
+}
+</script>
+<div class="ui fixed borderless menu">
+  <div class="ui text container" style="max-width: 100% !important;">
+    <div href="/" class="header item">
+     <img class="logo" src="yxlogo.png" alt="logo">
+     <a style="color: #767676;font-size:20px;margin-left:-20px;" href="/">临时邮箱</a>
+    </div>
+ 
+     <div style="margin-left:auto;margin-right:15px;font-weight: bold;text-align: -internal-center;padding: 20px 10px;">
+     <a style="color: #767676;font-size: 18px;" href="https://masuc.cn/">MASUC</a>
+</div>
+    </div>
+  </div>
+ 
+<div class="ui main container">
+  <div class="ui grid">
+    <div class="row">
+      <div class="column">
+    <div class="item right floated mailaddress" style="width:auto;"> 
+    <div align="center">
+    
+      <div class="ui icon "  style="font-size: 1.5rem;margin-bottom: 20px;margin-left: 10px; ">
+        <input id="shortid" type="text" style="padding: 10px 25px;border: 2px solid #d4d4d5;background: linear-gradient(to right, rgba(255,255,255,.9), rgba(255,255,255,.9));border-radius: 15px;font-size: 20px;" placeholder="请等待分配临时邮箱" disabled>
+        
+      &nbsp;  </div><i id="refreshShortid" class="circular refresh link icon"></i><a id="sendemail"    title="复制邮件">  </a>
+      <i id="customShortid" style="margin-left:0.5em" class="circular edit link icon"></i>
+ <a id="sendemail"  style=" color: #707070; margin-bottom:10px; "  href="javascript:void(0)" onclick="copyText()"  title="复制邮件">
+         <button class="myButton">复制邮箱</button></a>
+    </div>
+</div>
+         <table style="width: 100%;margin: 1em 0;box-shadow: none;padding: 10px 10px;border-radius: 5px;border: 1px solid #e7e7e7;text-align: center;border-collapse: separate;">
+          <thead>
+          <tr>
+            <th>发信人</th>
+            <th>主题（点击下方邮件即可查看）</th>
+            <th>时间</th>
+          </tr>
+          </thead>
+          <tbody id="maillist">
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div class="row">
+      <div class="column">
+        <div class="ui card" id="mailcard">
+          <div class="content">
+            <i class="code icon right floated"></i>
+            <div class="header">收到邮件后点邮件信息查看邮件内容</div>
+          </div>
+          <div class="content">
+            <p>我的邮件在哪里？系统收到邮件后上方会有邮件信息点击邮件即可查看 </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="ui hidden divider"></div>
+<div class="ui container">
+	<div class="ui icon message">
+		<i class="notched circle loading icon"></i>
+		<div class="content">
+			<div class="header">
+				服务正常运行中
+			</div>
+			<p>服务运行正常，请耐心等待系统处理您的来信!</p>
+		</div>
+	</div>
+</div>
+<div class="ui hidden divider"></div>
+<div class="ui container">
+    
+	<div class="ui   segment">
+	    	<p>填写邮箱时候，不想使用您的真实邮箱？那就使用免费临时邮箱。不需要注册，邮箱持续24小时，可以任意设置邮箱名，随时更换邮箱。</p>
+	    	<h4 class="ui header">使用方式</h4>
+			<p>1、默认为系统自动生成，如需修改或自定义邮箱请请点击修改按钮修改即可。</p>
+			<p>2、确认邮箱有点击左侧“复制即可”。</p>
+		 
+		<h4 class="ui header">使用规则</h4>
+			<p>1、程序仅提供临时邮箱接收邮件的功能，不保存邮件信息也不邮件内容负责。</p>
+			<p>2、不保证在线率和稳定性，也不会保证不发生技术性和非技术性的问题。</p>
+			<p>3、不提供任何技术或非技术上的支持，使用时或使用后造成的直接损失或间接损失本人不负任何责任。</p>
+       </div>
+</div>
+<div class="ui hidden divider"></div>
+<div class="ui mains container"><iframe name="content_frame" width=100%  height=30%   src="https://masuc.cn/ads/ads.php" frameborder=0></iframe>
+	<div class="ui message">
+		<div class="header">
+			<center>该程序由 <a style="color: #767676;"  href="https://qinyuhui.cn/" target="_blank">QINYUHUI</a> 维护和运行  |  <a style="color: #767676;" href="https://masuc.cn/" target="_blank">免费源码</a></center>
+		</div> 
+	</div>
+</div>
+<div class="ui hidden divider"></div>
+<div class="ui modal" id="raw">
+  <div class="header">
+  </div>
+  <div class="content">
+  </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/semantic.min.js"></script>
+<script src="js/socket.io.min.js"></script>
+<script src="js/clipboard.min.js"></script>
+<script src="js/push.min.js"></script>
+<script src="js/app.js?v=1.0"></script>
+<script src="/js/prism.js"></script>
+<style>
+.myButton {
+box-shadow: 0px 0px 0px 2px #d4d4d5;
+    background: linear-gradient(to bottom, rgba(255,255,255,.9) 5%, #d4d4d5 100%);
+    background-color: #767676;
+    border-radius: 20px;
+    border: 1px solid rgba(255,255,255,.5);
+    display: inline-block;
+    cursor: pointer;
+    color: #767676;
+    font-family: Arial;
+    font-size: 19px;
+    padding: 3px 20px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #d4d4d5 5%, rgba(255,255,255,.9) 100%);
+	background-color:#d4d4d5;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+</style>   
+<style>
+table, td, th {
+  border-bottom: 1px solid #e7e7e7;
+  line-height: 34px;
+}
+tr:hover {background-color:#e7e7e7;}
+</style>  
+<!-- Pixel Code for https://s.atusu.cn/ -->
+<script async src="https://s.atusu.cn/pixel/U12lldHTYCnPPxPh"></script>
+<!-- END Pixel Code -->
+
+</body>
+</html>
+
+ 
