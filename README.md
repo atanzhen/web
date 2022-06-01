@@ -1,7 +1,7 @@
 # Forsaken-Mail
 Forsaken Mail 前端页面修改版
 
-<img src="https://imgw.us/images/2022/06/01/tt43.png" alt="tt43.png" border="0">
+<img src="https://raw.githubusercontent.com/atanzhen/web/54eb142c7000a2fe1b8a9a42c6c26148c9d253fd/dddddddddddddddddddddddddd.png" alt="tt43.png" border="0">
 
 其实也没改什么主要是邮箱框按钮位置和手机端自适应屏幕，一共两个颜色一个蓝绿色一个原白色
 
